@@ -10,7 +10,7 @@
   <url>http://maven.apache.org</url>
 <properties>
     <spring.version>3.2.2.RELEASE</spring.version>
-     <maven.tomcat.url>http://ec2-52-23-150-82.compute-1.amazonaws.com:9999/manager/text</maven.tomcat.url>
+     <maven.tomcat.url>http://ec2-35-165-16-248.us-west-2.compute.amazonaws.com:9999/manager/text</maven.tomcat.url>
      <maven.tomcat.server>TomcatServer</maven.tomcat.server><!-- must configurate in file settings.xml id server user and password -->
       <maven.tomcat.tag>${project.artifactId}</maven.tomcat.tag>
       <maven.tomcat.update>true</maven.tomcat.update>
@@ -68,7 +68,7 @@
 
 
   <build>
-    <finalName>hari-webapp</finalName>
+    <finalName>my-app</finalName>
   <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
